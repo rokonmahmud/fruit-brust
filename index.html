@@ -103,15 +103,17 @@
       </nav>
     </header>
     <main>
-        <!-- ------ -----------------
+      <!-- ------ -----------------
             CARESOL SECTION
         ----------------------------->
-      <div class="mt-12 carousel w-10/12 mx-auto flex jusify-center rounded-lg lg:h-96 ">
+      <div
+        class="mt-12 carousel w-10/12 mx-auto flex jusify-center rounded-lg lg:h-96"
+      >
         <div id="slide1" class="carousel-item relative w-full">
           <div
             class="hero h-auto"
-            style="background-image: url(./images/banner1.png)">
-          
+            style="background-image: url(./images/banner1.png)"
+          >
             <div class="hero-overlay bg-[#000] bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-md">
@@ -192,16 +194,25 @@
         </div>
         <!-- slide 4 -->
         <div id="slide4" class="carousel-item relative w-full">
-            <div class="hero h-auto" style="background-image: url(./images/banner4.png);">
-                <div class="hero-overlay bg-[#000] bg-opacity-60"></div>
-                <div class="hero-content text-center text-neutral-content">
-                  <div class="max-w-md">
-                    <h1 class="mb-5 text-5xl text-[#fff] font-lato font-bold">Exotic tastes at your doorstep</h1>
-                    <p class="mb-5 font-lato text-[#fff]">We supply highly quality organic products</p>
-                    <button class="btn bg-[#F85559] text-[#fff] border-0">Get Started</button>
-                  </div>
-                </div>
+          <div
+            class="hero h-auto"
+            style="background-image: url(./images/banner4.png)"
+          >
+            <div class="hero-overlay bg-[#000] bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-5xl text-[#fff] font-lato font-bold">
+                  Exotic tastes at your doorstep
+                </h1>
+                <p class="mb-5 font-lato text-[#fff]">
+                  We supply highly quality organic products
+                </p>
+                <button class="btn bg-[#F85559] text-[#fff] border-0">
+                  Get Started
+                </button>
               </div>
+            </div>
+          </div>
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -211,36 +222,93 @@
         </div>
       </div>
 
-       <!-- ------ -----------------
+      <!-- ------ -----------------
            // CARESOL SECTION //
         ----------------------------->
 
-    <div class="flex text-center bg-[#fff] rounded-lg w-9/12 mx-auto px-16 py-6 drop-shadow-lg mb-12 -mt-12	">
-        <div class="mr-8">
-            <img src="images/fruit1.png" alt="">
-            <p class="text-xl">Strawberry</p>
+      <!-- --------------------- --
+              CATEGORI SECTION
+        ----------------------------->
+
+      <section class="hidden relative -top-16 mb-20 lg:block">
+        <div
+          class="bg-white shadow-lg p-4 rounded-xl grid grid-cols-5 gap-12 justify-between items-center w-9/12 mx-auto"
+        >
+          <div class="flex items-center flex-col gap-1">
+            <img src="./images/fruit1.png" alt="" />
+            <span>Blackberry</span>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <img src="./images/fruit2.png" alt="" />
+            <span>Orange</span>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <img src="./images/fruit3.png" alt="" />
+            <span>Mango</span>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <img src="./images/fruit4.png" alt="" />
+            <span>Strawberry</span>
+          </div>
+          <div class="flex flex-col items-center gap-1">
+            <img src="./images/fruit5.png" alt="" />
+            <span>Pomegranate</span>
+          </div>
         </div>
-        <div class="mr-8">
-            <img src="images/fruit2.png" alt="">
-            <p class="text-xl">Strawberry</p>
+      </section>
+      <!-- --------------------- --
+             // CATEGORI SECTION //
+        ----------------------------->
+
+      <!-- --------------------- -- ---------
+              <Deal of the day SECTION> 
+        ------------------------------------->
+    <section class="flex flex-col md:flex-row justify-around text-center md:text-left">
+        <div class=" w-96 p-4 mt-5">
+            <h1 class="text-4xl font-bold font-lato mb-5">Deal of the day</h1>
+            <p class="text-m">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
-        <div class="mr-8">
-            <img src="images/fruit3.png" alt="">
-            <p class="text-xl">Strawberry</p>
+        <div class=" mx-auto md:mx-5 ">
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl after:content-[':']">
+                    <span style="--value:15;"></span>
+                  </span>
+                  days
+                </div> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl after:content-[':']">
+                    <span style="--value:25;"></span>
+                  </span>
+                  hours
+                </div> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl after:content-[':']">
+                    <span style="--value:08;"></span>
+                  </span>
+                  min
+                </div> 
+                <div class="flex flex-col">
+                  <span class="countdown font-mono text-5xl">
+                    <span style="--value:20;"></span>
+                  </span>
+                  sec
+                </div>
+              </div>
         </div>
-        <div class="mr-8">
-            <img src="images/fruit4.png" alt="">
-            <p class="text-xl">Strawberry</p>
-        </div>
-        <div class="mr-8">
-            <img src="images/fruit5.png" alt="">
-            <p class="text-xl">Strawberry</p>
-        </div>
-    </div>
+    </section>
+        <!-- --------------------- -- ---------
+          </Deal of the day SECTION> 
+        ------------------------------------->
+
+        <!-- --------------------- -- ---------
+          </Deal of the day SECTION> 
+        ------------------------------------->
+    <section>
+        
+    </section>
     
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>
